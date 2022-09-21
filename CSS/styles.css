@@ -109,12 +109,16 @@ li {
   font-weight: 900;
   padding-bottom: 15px;
   text-align: center;
+
+  animation: fadeUp 1s;
 }
 
 .carousel .carousel-inner .carousel-item .carousel-caption p {
   font-weight: 200;
   font-size: 25px;
   display: inline-block;
+  
+  animation: fadeUp 2s;
 }
 
 .carousel .carousel-inner .carousel-item .carousel-caption button {
@@ -129,6 +133,8 @@ li {
   font-weight: 500;
   margin-top: 20px;
   cursor: pointer;
+
+  animation: fadeUp 3s;
 }
 
 .carousel .carousel-inner .carousel-item .carousel-caption button:hover {
@@ -1270,6 +1276,17 @@ li {
     height: 100%;
     opacity: 0.5;
   }
+}
+
+@keyframes fadeUp{
+    from{
+        transform: translateY(70px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 /* MEDIA SCREEN */
