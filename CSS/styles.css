@@ -87,6 +87,12 @@ li {
   font-size: 20px;
 }
 
+
+
+
+
+
+
 /* CAROUSEL */
 .carousel {
   height: 950px;
@@ -100,6 +106,7 @@ li {
 }
 
 .carousel .carousel-inner .carousel-item .carousel-caption {
+    width: 1000px;
   padding-top: 70px;
 }
 .carousel .carousel-inner .carousel-item .carousel-caption h5 {
