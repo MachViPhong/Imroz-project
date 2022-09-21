@@ -1091,7 +1091,7 @@ li {
   content: "";
   position: absolute;
   width: 0;
-  height: 2px;
+  height: 1px;
   left: 0;
   bottom: 0;
   background: rgb(0, 198, 255);
@@ -1137,7 +1137,7 @@ li {
   content: "";
   position: absolute;
   width: 0;
-  height: 2px;
+  height: 1px;
   left: 0;
   bottom: 0;
   background: rgb(0, 198, 255);
