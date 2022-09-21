@@ -1243,12 +1243,13 @@ li {
   height: 0;
   width: 100%;
   opacity: 0;
-  background-color: #fd4765d8;
+  background-color: #ffffffd8;
   transition: all 0.6s;
 }
 
 .scrollTop i:hover {
   transform: translateY(-5px);
+  /* color: #fff; */
 }
 
 .scrollTop i:hover::after {
