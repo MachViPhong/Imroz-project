@@ -1389,7 +1389,7 @@ li {
     text-align: center;
   }
   .carousel .carousel-inner .carousel-item .carousel-caption p {
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
   }
 
@@ -1466,7 +1466,7 @@ li {
     text-align: center;
   }
   .carousel .carousel-inner .carousel-item .carousel-caption p {
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
   }
 }
@@ -1511,5 +1511,13 @@ li {
 
   .carousel .carousel-inner .carousel-item .carousel-caption {
     width: 900px;
+  }
+}
+
+
+@media only screen and (max-width: 647px){
+  .carousel .carousel-inner .carousel-item .carousel-caption button{
+    padding: 10px 30px !important;
+    font-size: 13px !important;
   }
 }
